@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Ensure these IDs match what you saved in Jenkins -> Credentials
-        ANTHROPIC_API_KEY = credentials('ANTHROPIC_API_KEY')
+        CLAUDE_API_KEY = credentials('CLAUDE_API_KEY')
         SONAR_TOKEN       = credentials('SONAR_TOKEN')
         TARGET_FILE       = "app.py" // The file you want Claude to scan
     }
