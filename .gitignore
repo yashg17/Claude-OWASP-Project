@@ -1,0 +1,45 @@
+# Secrets — never commit these
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+pip-debug.log
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+.dockerignore
+
+# Jenkins
+.jenkins/
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# Scan reports
+reports/
+*.json.report
+claude_report_*.json
